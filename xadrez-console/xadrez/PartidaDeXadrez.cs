@@ -1,5 +1,4 @@
-﻿using System;
-using tabuleiro;
+﻿using tabuleiro;
 
 namespace xadrez
 {
@@ -8,7 +7,6 @@ namespace xadrez
         public Tabuleiro tab { get; private set; }
         private int turno { get; set; }
         private Cor jogadorAtual { get; set; }
-
         public bool terminada { get; private set; }
 
         public PartidaDeXadrez()
