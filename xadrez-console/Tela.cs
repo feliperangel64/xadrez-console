@@ -56,9 +56,6 @@ namespace xadrez_console
 
             foreach (Peca x in conjunto)
             {
-                if (x.cor == Cor.Preta)
-                {
-                }
                 Console.Write(x + " ");
             }
 
